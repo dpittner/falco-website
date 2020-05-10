@@ -77,10 +77,10 @@ fd.connected    for TCP/UDP FDs, 'true' if the socket is connected.
 fd.name_changed True when an event changes the name of an fd used by this event
                 . This can occur in some cases such as udp connections where th
                 e connection tuple changes.
-fd.cip.name     Domain name associated with the client IP address.
-fd.sip.name     Domain name associated with the server IP address.
-fd.lip.name     Domain name associated with the local IP address.
-fd.rip.name     Domain name associated with the remote IP address.
+fd.cip.name     (FILTER ONLY) Domain name associated with the client IP address.
+fd.sip.name     (FILTER ONLY) Domain name associated with the server IP address.
+fd.lip.name     (FILTER ONLY) Domain name associated with the local IP address.
+fd.rip.name     (FILTER ONLY) Domain name associated with the remote IP address.
 fd.dev          device number (major/minor) containing the referenced file
 fd.dev.major    major device number containing the referenced file
 fd.dev.minor    minor device number containing the referenced file
